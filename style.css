@@ -1,14 +1,23 @@
 
 h1 {
-    color: rgb(255, 123, 163);}
-body{ text-align: center;
-    background-color: rgb(139, 241, 243); 
-    color: rgb(0, 99, 169); 
-    font-family: Arial, sans-serif;}
-button {
-    background-color: rgb(0, 174, 205); 
+    color: rgb(38, 255, 172);}
+h2{color: rgb(22, 237, 245);}
+body{ 
+    background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: center;
+  background-attachment: fixed;
+
+    text-align: center;
+    background-color: rgb(100, 74, 146); 
+    color: rgb(22, 237, 245); 
+    font-family: Arial, sans-serif;
+ul{align-items: center;}
+}
+button { align-items: center;
+    background-color: rgb(16, 214, 220); 
     color: rgb(255, 255, 255);}
-    :link{
-    text-decoration:none ;
-    color: rgb(255, 255, 255);}
-    li{color: rgb(255, 66, 123);}
+
+    li{color: rgb(255, 103, 191);
+    }

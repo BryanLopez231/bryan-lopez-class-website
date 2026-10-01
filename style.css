@@ -1,5 +1,6 @@
 
 h1 {
+
   font-size: 60px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
@@ -11,62 +12,78 @@ h1 {
   align-items: center;
 }
     
-h2{color: rgb(22, 237, 245);
+h2{
+    
+    color: rgb(22, 237, 245);
 }
 
 body{
 
- text-align: center;
+    text-align: center;
     background-color: #644a92; 
     color: rgb(22, 237, 245); 
-   font-family: Arial, sans-serif;
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-size: 200%;
-  background-position: center;
-  background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    background-attachment: fixed;
 
 .intro{
-color: #26ffac;
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #ff00dd;
+    text-shadow: 1px 0 #5900ff, -2px 0 #ff77ff;
+    align-items: center;
 }
-#about{ 
+
+#about{
+
     margin-left: 200px;
     margin-right: 200px;
     background-blend-mode: color-dodge;
     background-color: #324889;
-    border-color: rgb(38, 255, 172);
+    border-color: #26ffac;
     border-width: 7px;
     border-radius: 70%;
     border-style:ridge;
     padding: 30px;
 }
-    text-align: center;
-    background-color: rgb(100, 74, 146); 
-    color: rgb(22, 237, 245); 
-    font-family: Arial, sans-serif;
+
 .media {
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 4px;
-  color: #ff77ff;
-  text-shadow: 2px 0 #26ffac, -2px 0 #ff00ff;}
-ul{list-style-position: inside;}
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #c277ff;
+    text-shadow: 2px 0 #26ffac, -2px 0 #ff00ff;
+}
+
+ul{
+    list-style-position: inside;
+}
 
 .myart{
-   font-size: 40px;
-   font-family: "Times New Roman", Times, serif;
-   font-style: italic;
-   font-weight: bold;
-   letter-spacing: 4px;
-   color: #ff77ff;
-   text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-   color: #26ffac;
-   align-items: center;
+
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #ff77ff;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
 }
 
 }
+
 #art{
+    
     padding-right: 40px;
     padding-bottom: 20px;
     padding-top: 40px;
@@ -81,26 +98,40 @@ ul{list-style-position: inside;}
     border-width: 7px;
     border-style: ridge;
     image-orientation: 20px;
-
 }
 
-button { 
+.FAVEPAGE { 
+
+    background-color: #c89eff; 
+    border-color: #26ffac;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.HG { 
 
     background-color: #64fffa; 
     border-color: #26ffac;
     box-sizing: border-box;
-    border: 0;
     border-radius: 4px;
-   font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 4px;
-  text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-  color: #26ffac;
-  align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
     margin: 5px;
     padding: 10px 15px;
     text-align: center;
-
 }
 

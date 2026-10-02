@@ -1,0 +1,32 @@
+body{
+
+    text-align: center;
+    background-color: #644a92; 
+    color: rgb(22, 237, 245); 
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    background-attachment: fixed;
+
+
+.Home{
+
+    background-color: #64fffa; 
+    border-color: #26ffac;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+
+}
+}

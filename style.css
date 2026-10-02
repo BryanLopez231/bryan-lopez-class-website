@@ -1,6 +1,8 @@
 
 h1 {
-
+  margin-bottom: 10px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 60px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
@@ -135,3 +137,19 @@ ul{
     text-align: center;
 }
 
+.EX6 {
+    background-color: #ffacd6; 
+    border-color: #26ffac;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+}

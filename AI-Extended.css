@@ -1,0 +1,92 @@
+body{
+
+    text-align: center;
+    background-color: #644a92; 
+    color: rgb(22, 237, 245); 
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  cursor: pointer;
+}
+
+/* Clear Button Styling */
+#clear-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Keeps button above spawned images */
+  padding: 12px 24px;
+  background-color: #260057; 
+    border-color: #26ffac;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#clear-btn:hover {
+  background-color: hsl(223, 100%, 88%);
+}
+
+#clear-btn:active {
+  transform: scale(0.95);
+}
+
+.instructions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.spawned-image {
+  position: absolute;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: popIn 0.2s ease-out;
+}
+
+@keyframes popIn {
+  from {
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}

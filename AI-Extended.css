@@ -89,4 +89,21 @@ body {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
   }
+
+}
+.home {
+    background-color: #0c0038; 
+    border-color: #26ffac;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    color: #26ffac;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
 }

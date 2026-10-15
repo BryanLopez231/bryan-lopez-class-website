@@ -1,37 +1,38 @@
 const images = [
-  'robot.jpg',
-  'sky.png',
-  'art.jpg',
-  'logo new final.png',
-  'sad.GIF',
-  'Skeleton.GIF'
+    'robot.jpg',
+    'sky.png',
+    'art.jpg',
+    'logo new final.png',
+    'sad.GIF',
+    'Skeleton.GIF'
 ];
 
 const clearBtn = document.getElementById('clear-btn');
+const homeBtn = document.getElementById('home');
 
 // 1. Listen for page clicks to spawn images
 document.addEventListener('click', (event) => {
-  // Prevent spawning an image if the clear button itself was clicked
-  if (event.target === clearBtn) return;
+    // Prevent spawning an image if the clear button, home button, or link was clicked
+    if (event.target === clearBtn || event.target.closest('#home')) return;
 
-  const x = event.clientX;
-  const y = event.clientY;
+    const x = event.clientX;
+    const y = event.clientY;
 
-  const randomIndex = Math.floor(Math.random() * images.length);
-  const selectedImageSrc = images[randomIndex];
+    const randomIndex = Math.floor(Math.random() * images.length);
+    const selectedImageSrc = images[randomIndex];
 
-  const imgElement = document.createElement('img');
-  imgElement.src = selectedImageSrc;
-  imgElement.classList.add('spawned-image');
+    const imgElement = document.createElement('img');
+    imgElement.src = selectedImageSrc;
+    imgElement.classList.add('spawned-image');
 
-  imgElement.style.left = `${x}px`;
-  imgElement.style.top = `${y}px`;
+    imgElement.style.left = `${x}px`;
+    imgElement.style.top = `${y}px`;
 
-  document.body.appendChild(imgElement);
+    document.body.appendChild(imgElement);
 });
 
 // 2. Clear all spawned images on button click
 clearBtn.addEventListener('click', () => {
-  const spawnedImages = document.querySelectorAll('.spawned-image');
-  spawnedImages.forEach(img => img.remove());
+    const spawnedImages = document.querySelectorAll('.spawned-image');
+    spawnedImages.forEach(img => img.remove());
 });

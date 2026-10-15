@@ -1,32 +1,67 @@
-body{
-
-    text-align: center;
+body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+    
     background-color: #644a92; 
-    color: rgb(22, 237, 245); 
-    font-family: Arial, sans-serif;
     background-image: url('background.jpg');
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
+    color: rgb(22, 237, 245); 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
 
-#Home{
+#myImage {
+    cursor: pointer;
+    width: min(350px, 85vw); 
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px ridge #26ffac;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+}
 
-    background-color: #64fffa; 
-    border-color: #26ffac;
+#myImage:hover {
+    transform: scale(1.03);
+}
+
+
+#Home { 
+    background-color: #15012b; 
+    border: 2px ridge #26ffac;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 6px;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: bold;
-    letter-spacing: 4px;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-    color: #26ffac;
-    align-items: center;
-    margin: 5px;
-    padding: 10px 15px;
-    text-align: center;
-
+    letter-spacing: 2px;
+    text-shadow: 1px 0 #00ffff, -1px 0 #ff00ff;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
+
+#Home:hover {
+    transform: scale(1.05);
+}
+
+#Home a {
+    text-decoration: none;
+    color: #26ffac;
+    display: block;
 }

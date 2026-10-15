@@ -1,171 +1,173 @@
-
-h1 {
-  margin-bottom: 10px;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  font-size: 60px;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 4px;
-  color: #ff77ff;
-  text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-  color: #26ffac;
-  align-items: center;
-}
-    
-h2{
-    
-    color: rgb(22, 237, 245);
-}
-
-body{
-
+body {
     text-align: center;
     background-color: #644a92; 
-    color: rgb(22, 237, 245); 
+    color: #bd16f5; 
     font-family: Arial, sans-serif;
     background-image: url('background.jpg');
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
 
-.intro{
 
+.main-title {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+    
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    
+    
+    font-size: 40px;
+    
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #26ffac;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+}
+
+
+.main-title img {
+    width: clamp(30px, 8vw, 100px);
+    height: auto;
+    object-fit: contain;
+}
+
+h2 {
+    color: #f516f1;
+}
+
+.intro {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 4px;
-    color: #ff00dd;
+    color: #98fff8;
     text-shadow: 1px 0 #5900ff, -2px 0 #ff77ff;
-    align-items: center;
 }
 
-#about{
+#worked {
+font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #26ffac;
+    text-shadow: 1px 0 #26ffac, -1px 0 #ff00ff;
+    margin: 20px 0;
+}
 
-    margin-left: 200px;
-    margin-right: 200px;
+
+#about {
+    max-width: 800px;
+    margin: 20px auto;
     background-blend-mode: color-dodge;
-    background-color: #324889;
+    background-color: #15012b;
     border-color: #26ffac;
     border-width: 7px;
-    border-radius: 70%;
-    border-style:ridge;
+    border-radius: 40px;
+    border-style: ridge;
     padding: 30px;
 }
 
-.media {
 
+.media {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 4px;
-    color: #c277ff;
-    text-shadow: 2px 0 #26ffac, -2px 0 #ff00ff;
+    color: #98fff8;
+    text-shadow: 1px 0 #26ffac, -1px 0 #ff00ff;
+    margin: 20px 0;
 }
 
-ul{
+ul {
     list-style-position: inside;
+    padding: 0;
 }
 
-.myart{
 
+.myart {
     font-size: 40px;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: bold;
     letter-spacing: 4px;
-    color: #ff77ff;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
     color: #26ffac;
-    align-items: center;
+    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+    margin-top: 40px;
 }
 
-}
 
-#art{
-    
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-top: 40px;
-    margin: 100px;
-    margin-bottom: 20px;
-    margin-top: 20px; ;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: #324889;
+#art {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #15012b;
     background-blend-mode: multiply;
-    border-color: rgb(38, 255, 172);
+    border-color: #26ffac;
     border-width: 7px;
     border-style: ridge;
-    image-orientation: 20px;
+    border-radius: 20px;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
-.FAVEPAGE { 
+#art img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #26ffac;
+}
 
-    background-color: #c89eff; 
-    border-color: #26ffac;
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+button {
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 6px;
+    border: 2px ridge #26ffac;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: bold;
-    letter-spacing: 4px;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-    color: #26ffac;
-    align-items: center;
-    margin: 5px;
-    padding: 10px 15px;
-    text-align: center;
-}
-.HG { 
-
-    background-color: #64fffa; 
-    border-color: #26ffac;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-family: "Times New Roman", Times, serif;
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-    color: #26ffac;
-    align-items: center;
-    margin: 5px;
-    padding: 10px 15px;
-    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 #00ffff, -1px 0 #ff00ff;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-.EX6 {
-    background-color: #ffacd6; 
-    border-color: #26ffac;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-family: "Times New Roman", Times, serif;
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-    color: #26ffac;
-    align-items: center;
-    margin: 5px;
-    padding: 10px 15px;
-    text-align: center;
+button:hover {
+    transform: scale(1.05);
 }
-.AI {
-    background-color: #26ffac; 
-    border-color: #26ffac;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-family: "Times New Roman", Times, serif;
-    font-style: italic;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
+
+button a {
+    text-decoration: none;
     color: #26ffac;
-    align-items: center;
-    margin: 5px;
-    padding: 10px 15px;
-    text-align: center;
+    display: block;
 }
+
+.FAVEPAGE { background-color: #15012b; }
+.HG { background-color: #15012b; }
+.EX6 { background-color: #15012b; }
+.AI { background-color: #15012b; }

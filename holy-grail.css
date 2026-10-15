@@ -1,69 +1,89 @@
 body {
-  background-image: url('background.jpg');
-  font-size: 24px;
-  color: white;
-  height: 100vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column; 
-}
-.header {
-
-  margin-bottom: 10px;
-  background-color: #5070b5;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.main {
-  display: flex;
-  flex: 1; 
-  justify-content:space-between;
-  gap: 10px;
-}
-.right-sidebar{
-  background-color: rgb(163, 148, 230);
-  padding-top: 3rem;
-  flex: 1 1 5rem; 
-}
-.main-content {
-  background-color: #ff00dd;
-  padding-top: 3rem;
-  flex: 3 3;
-}
-.left-sidebar {
-  background-color: #26ffac;
-  padding-top: 3rem;
-  flex: 1 1 5rem; 
-}
-.footer {
-  margin-top: 10px;
-  background-color: #324889;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-
-button{ 
-
-    background-color: #64fffa; 
-    border-color: #26ffac;
+    margin: 0;
     box-sizing: border-box;
-    border: 0;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 24px;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.header {
+    margin-bottom: 10px;
+    background-color: #5070b5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.main {
+    display: flex;
+    flex: 1; 
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+
+.left-sidebar {
+    background-color: #26ffac;
+    padding-top: 3rem;
+    flex: 1 1 5rem; 
+    color: #111;
+}
+
+.main-content {
+    background-color: #ff00dd;
+    padding-top: 3rem;
+    flex: 3 3;
+}
+
+.right-sidebar {
+    background-color: rgb(163, 148, 230);
+    padding-top: 3rem;
+    flex: 1 1 5rem; 
+    color: #111;
+}
+
+
+.footer {
+    margin-top: 10px;
+    background-color: #324889;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+button { 
+    background-color: #15012b; 
+    border: 2px ridge #26ffac;
     border-radius: 4px;
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: bold;
-    letter-spacing: 4px;
-    text-shadow: 2px 0 #00ffff, -2px 0 #ff00ff;
-    color: #26ffac;
-    align-items: center;
-    margin: 5px;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 #00ffff, -1px 0 #ff00ff;
+    margin-top: 15px;
     padding: 10px 15px;
-    text-align: center;
+    cursor: pointer;
 }
 
+button a {
+    text-decoration: none;
+    color: #26ffac;
+    display: block;
 }
+
 
 @media all and (max-width: 540px) {
-  .main {
-    flex-direction: column;
-  }
+    .main {
+        flex-direction: column;
+    }
 }

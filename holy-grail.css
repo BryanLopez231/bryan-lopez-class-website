@@ -22,7 +22,6 @@ body {
     padding-bottom: 3rem;
 }
 
-
 .main {
     display: flex;
     flex: 1; 
@@ -73,6 +72,11 @@ button {
     margin-top: 15px;
     padding: 10px 15px;
     cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
 
 button a {
